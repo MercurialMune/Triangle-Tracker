@@ -16,14 +16,25 @@ if (dim1 === dim2 && dim2 === dim3) {
   alert("The triangle is Equilateral");
 }
 
-// else if (dim1 !== dim2 && dim2 === dim3 || dim2 === dim1 && dim1 !== dim3 || dim1===dim3 && dim1!===dim2) {
-//   alert("The triangle is Isosceles");
+else if (dim1 !== dim2 && dim2 === dim3){
+
+//         if (dim1 === dim3){
+        alert("The triangle is Isosceles");
+//         }
+//         else {
+//         alert("The triangle is Scalene");
+//         }
+//    //
+   // if (dim1===dim3 && dim1!===dim2) {
+   //   alert("The triangle is Isosceles");
+        }
+// }
 // }
 //
-// else if (dim1!== dim2 && dim1!== dim3 && dim2 !== dim3)
-//    {
-//   alert(" The triangle is Scalene");
-// }
+else if (dim1!== dim2 && dim1!== dim3 && dim2 !== dim3)
+   {
+  alert(" The triangle is Scalene");
+}
 // //
 // else if (dim1===0||dim1===NaN || dim2===0||dim2===NaN ||dim3===0||dim3===NaN){
 //   alert(" Not a Triangle");
