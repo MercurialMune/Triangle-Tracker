@@ -9,8 +9,15 @@
 <h1>The Mercurial Triangle Tracker</h1>
 <h2>A javascript project that allows you as a user to determine whether the inputs you give make a Triangle or not</h2>
 <br>
+<!-- <p>Directions for use:</p>
+<ul>
+  <li>Input first, second and third dimensions</li>
+  <li>Click on the button check</li>
+  <li>Enjoy!!!</li>
+</ul> -->
 <div class="formcontainer">
-  <form class="input" action="index.html" method="submit">
+
+  <form name="triatrack" id="input">
     First Dimension<br>
     <input type="text" name="dim1" value="">
     <br>
@@ -22,7 +29,7 @@
     <br>
     <br>
     <br>
-    <input type="submit" value="Check">
+    <input type="submit" value="Check" onclick="triatrack.input.value"= >
   </form>
 </div>
 
