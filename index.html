@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>The Mercurial Triangle Tracker</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   <body>
     <div class="body-content">
 <h1>The Mercurial Triangle Tracker</h1>
@@ -18,22 +18,22 @@
 </ul> -->
 <div class="formcontainer">
 
-  <form name="triatrack" id="input">
+  <form name="triatrack" method="get" class="input">
     First Dimension<br>
-    <input type="text" name="dim1" value="">
+    <input type="text" id="dim1" value="">
     <br>
     Second Dimension<br>
-    <input type="text" name="dim2" value="">
+    <input type="text" id="dim2" value="">
     <br>
     Third Dimension<br>
-    <input type="text" name="dim3" value="">
+    <input type="text" id="dim3" value="">
     <br>
     <br>
     <br>
-    <input type="submit" value="Check" onclick="triatrack.input.value"= >
+    <button type="button" onclick="runScript()" name="button">Check</button>
   </form>
 </div>
-
 </div>
+
   </body>
 </html>

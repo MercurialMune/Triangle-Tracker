@@ -1,6 +1,6 @@
 body{
-  color: #1c3642;
-  background-image: url(../img/triangles.jpg);
+  color: #06a5a5;
+  background-image: url(../img/tringles.jpg);
   background-color: #75d8e5;
   margin: 10px;
   padding: 10px;
@@ -19,18 +19,18 @@ body{
 }
 h1{
   text-align: center;
-  color: #07f4f4;
+  color: #364444;
 }
 h2{
   text-align: center;
-  color: #07f4f4;
+  color: #445656;
 }
 ul{
   display: inline-block;
   /* text-align: center; */
 }
-#input{
-  color: black;
+.input{
+  color: #445656;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -50,7 +50,7 @@ ul{
   padding: 5px;
 }
 .formcontainer{
-  background-image: url(../img/tria.jpg);
+  background-image: url(../img/triangle.jpg);
   width: 300px;
   margin-left: auto;
   margin-right: auto;
