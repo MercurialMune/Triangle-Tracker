@@ -40,7 +40,7 @@ else if (dim1!== dim2 && dim1!== dim3 && dim2 !== dim3)
 //   alert(" Not a Triangle");
 // }
 else {
-  alert("Please enter some rational shit!! Stupid Shit");
+  alert("Lol");
 }
 
 //
