@@ -1,13 +1,42 @@
 body{
+  color: #1c3642;
   background-image: url(../img/tringles.jpg);
   background-color: #75d8e5;
   margin: 10px;
   padding: 10px;
   border: 5px;
 }
+.body-content{
+  margin-top:55px;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px;
+  border-color: #07f4f4;
+  z-index: 1;
+  border-style:dashed;
+  padding: 30px;
+}
 h1{
   text-align: center;
 }
 h2{
   text-align: center;
+}
+.input{
+  color: #443e66;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+  /* margin-bottom: 15px; */
+  padding: 30px;
+  border: 3px;
+}
+.formcontainer{
+  background-image: url(../img/triangle.jpg);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #3ce0b7; */
 }
