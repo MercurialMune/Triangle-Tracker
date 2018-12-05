@@ -14,7 +14,7 @@ This project enables a user to input three (or less) sample dimensions in a form
 
 To deploy the program, stage it on Git and push it to GitHub. Then, create a gh-pages branch from your master branch in the local machine. Thereafter, push the project to gh-pages on GitHub. After that, the program will be ready for Deployment on Git Hub Pages
 
-The live page can be found in the following link: ![The Mercurial Triangle Tracker](https://mercurialmune.github.io/Triangle-Tracker/)
+The live page can be found in the following link: [The Mercurial Triangle Tracker](https://mercurialmune.github.io/Triangle-Tracker/)
 
 * After Deployment, the following image shows what the expected output would be.
 ![A screenshot of what the program looks like](img/triatrack.jpg)
