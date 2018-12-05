@@ -16,7 +16,7 @@ if (dim1 === dim2 && dim2 === dim3) {
   alert("The triangle is Equilateral");
 }
 
-else if (dim1 !== dim2 && dim2 === dim3){
+else if (dim1 !== dim2 && dim2 === dim3 || dim2===dim1 && dim2!==dim3 || dim3===dim1 && dim3!==dim2){
 
 //         if (dim1 === dim3){
         alert("The triangle is Isosceles");
@@ -31,7 +31,7 @@ else if (dim1 !== dim2 && dim2 === dim3){
 // }
 // }
 //
-else if (dim1!== dim2 && dim1!== dim3 && dim2 !== dim3)
+else if (dim2!== dim3 && dim2!== dim1 && dim1 !== dim3)
    {
   alert(" The triangle is Scalene");
 }
@@ -40,7 +40,7 @@ else if (dim1!== dim2 && dim1!== dim3 && dim2 !== dim3)
 //   alert(" Not a Triangle");
 // }
 else {
-  alert("Lol");
+  alert("Dimensions do not give a triangle!");
 }
 
 //
