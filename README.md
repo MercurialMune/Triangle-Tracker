@@ -19,6 +19,15 @@ The live page can be found in the following link: [The Mercurial Triangle Tracke
 * After Deployment, the following image shows what the expected output would be.
 ![A screenshot of what the program looks like](img/triatrack.jpg)
 
+##Behavior Driven Development
+  As with any other reputable development project, the Mercurial Triangle Tracker followed a systematic process between its conceptualization stage and its actual implementation. First, it was considered that users needed to perform certain tasks. However, due to the simplicity of the program, there wasn't much users could do with it. However, it was assumed that in the least, users should:
+  * Input at most three numbers
+  * check if the numbers could produce a triangle.
+  Considering these two desired behaviors, it was evident that the program should at least:
+  1. provide an input method to hold at most three variable - we settled on a form
+  2. perform arithmetic and logical operations to determine whether the dimensions given could yield a triangle
+  3. display the results of the arithmetic and/or logical operations (whether the user had input a triangle)
+
 ## Built With
 
 * Atom - The text editor used
