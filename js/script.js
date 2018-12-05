@@ -5,7 +5,7 @@ function runScript() {
 
   if (dim1 + dim2 <= dim3 || dim2 + dim3 <= dim1 || dim1 + dim3 <= dim2) {
     alert("Dimensions do not give a triangle!");
-  } else if (dim1 !== 0 && dim2 !== 0 && dim3 !== 0) {
+  } else if (dim1 === 0 && dim2 === 0 && dim3 === 0) {
     alert("Dimensions do not give a triangle!");
   } else if (dim1 === dim2 && dim2 === dim3) {
     alert("The triangle is Equilateral");
