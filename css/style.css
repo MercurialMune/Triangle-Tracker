@@ -1,4 +1,4 @@
-body{
+body {
   color: #06a5a5;
   background-image: url(../img/tringles.jpg);
   background-color: #75d8e5;
@@ -6,53 +6,56 @@ body{
   padding: 10px;
   border: 5px;
 }
-.body-content{
-  margin-top:55px;
-  width:75%;
+
+.body-content {
+  margin-top: 55px;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   border: 5px;
   border-color: #07f4f4;
   z-index: 1;
-  border-style:dashed;
+  border-style: dashed;
   padding: 30px;
 }
-h1{
+
+h1 {
   text-align: center;
   color: #364444;
 }
-h2{
+
+h2 {
   text-align: center;
   color: #445656;
 }
-ul{
+
+ul {
   display: inline-block;
-  /* text-align: center; */
 }
-.input{
+
+.input {
   color: #445656;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin: 10px;
-  /* margin-bottom: 15px; */
   padding: 30px;
   border: 3px;
 }
-.input [type=text]{
+
+.input [type=text] {
   box-sizing: border-box;
   border-color: green;
   padding: 5px;
 }
-.input [type=submit]{
-  /* box-sizing: content-box; */
-  /* background-color: blue; */
+
+.input [type=submit] {
   padding: 5px;
 }
-.formcontainer{
+
+.formcontainer {
   background-image: url(../img/triangle.jpg);
   width: 300px;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: #3ce0b7; */
 }
